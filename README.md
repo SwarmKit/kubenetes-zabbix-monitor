@@ -1,5 +1,5 @@
 # Description
-[zabbix-kubernetes-monitoring](https://github.com/SwarmKit/kubenetes-zabbix-monitor) is zabbix-agent script and template for zabbix server. It is used for Kubernetes monitoring by Zabbix. Easy to deploy and configure. Auto discovery of pods, deployments, services, etc.
+[kubenetes-zabbix-monitor](https://github.com/SwarmKit/kubenetes-zabbix-monitor) is zabbix-agent script and template for zabbix server. It is used for Kubernetes monitoring by Zabbix. Easy to deploy and configure. Auto discovery of pods, deployments, services, etc.
 
 # Installation
 1. Copy [k8s-stats.py](https://github.com/SwarmKit/kubenetes-zabbix-monitor/master/k8s-stats.py) to /etc/zabbix/scripts/ and [userparameter_k8s.conf](https://raw.githubusercontent.com/SwarmKit/kubenetes-zabbix-monitor/main/userparameter_k8s.conf) to /etc/zabbix/zabbix_agentd.d/. Remind to give execute permission to the file: ``chmod +x k8s-stats.py``
